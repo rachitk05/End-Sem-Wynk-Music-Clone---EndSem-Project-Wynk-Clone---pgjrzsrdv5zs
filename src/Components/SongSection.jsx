@@ -45,7 +45,7 @@ const SongSection = ({ title, songs }) => {
         <div className="m-16">
             <h2 className="text-4xl font-bold ">{title}</h2>
             <div className={"mx-14"}>
-                <Carousel  value={songs} numScroll={2} numVisible={6} circular responsiveOptions={responsiveOptions} itemTemplate={SongCarousel}/>
+                <Carousel  value={songs} numScroll={2} numVisible={5} circular responsiveOptions={responsiveOptions} itemTemplate={SongCarousel}/>
             </div>
         </div>
 
